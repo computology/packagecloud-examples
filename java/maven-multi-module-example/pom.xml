@@ -24,9 +24,7 @@
     </snapshotRepository>
   </distributionManagement>
 
-  <!-- Build plugins -->
   <build>
-    <!-- use S3 -->
     <extensions>
       <extension>
         <groupId>io.packagecloud.maven.wagon</groupId>
