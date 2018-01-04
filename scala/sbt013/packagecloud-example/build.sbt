@@ -11,5 +11,5 @@ credentials += Credentials(Path.userHome / ".ivy2" / ".credentials")
 aetherWagons := Seq(aether.WagonWrapper("packagecloud+https", "io.packagecloud.maven.wagon.PackagecloudWagon"))
 
 publishTo := {
-  Some("packagecloud+https" at "packagecloud+https://packagecloud.io/capotej/testy_repo")
+  Some("packagecloud+https" at "packagecloud+https://packagecloud.io/capotej/scala-test")
 }
