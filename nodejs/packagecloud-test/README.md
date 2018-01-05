@@ -19,6 +19,7 @@ Configure your packagecloud repository as the NPM registry:
     $ npm config set registry https://packagecloud.io/test_user/test_repo/npm/
 
 Run npm login and enter your packagecloud username, password and email:
+    
     $ npm login
     Username: testy34
 
