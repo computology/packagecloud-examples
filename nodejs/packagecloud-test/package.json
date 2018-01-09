@@ -1,11 +1,11 @@
 {
   "name": "packagecloud-test",
   "version": "1.0.0",
-  "description": "Test package for packagecloud",
+  "description": "Example NPM package",
   "main": "index.js",
   "scripts": {
-    "main": "node index.js"
+    "install": "node index.js"
   },
-  "author": "Julio Capote",
+  "author": "Armando Canals",
   "license": "MIT"
 }
